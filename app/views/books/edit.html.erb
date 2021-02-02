@@ -3,7 +3,7 @@
 <!-- error message-->
 <% if @book.errors.any? %>
   <div class="alert alert-warning">
-    <h4>Errors:</h4>
+    <h4>error:</h4>
     <ul>
       <% @book.errors.full_messages.each do |message| %>
         <li><%= message %></li>
